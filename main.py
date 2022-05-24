@@ -23,5 +23,5 @@ def replace_files_name_episode_number(directory: str):
 
 
 if __name__ == '__main__':
-    directory = input("Entrez le chemin du dossier: ")
+    directory = input("Folder path: ")
     replace_files_name_episode_number(directory)
